@@ -10,4 +10,11 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+Steps To setup environment:
+
+    1. Clone the repo: `git clone https://github.com/ObelusFamily/Anythink-Market-o8r37.git`
+    2. Change to the directory: `cd Anythink-Market-o8r37`
+    3. Run `docker-compose up -d`
+    4. Open the browser and go to  http://localhost:3000/api/ping to see whether the backend is running.
+    5. You should see the app running
+    6. If you want to test the frontend, open the browser and go to http://localhost:3001/register to see whether the frontend is running.
